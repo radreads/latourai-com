@@ -9,17 +9,19 @@ export default function LandingPage() {
           <span className="text-[#EC3E72]">AI</span>
         </h1>
 
-        <p className="text-xl md:text-2xl text-stone-700 font-light leading-relaxed font-serif">
+        <p className="text-xl md:text-2xl text-stone-700 font-thin leading-relaxed font-serif">
           AI training and strategy for the buyside.
         </p>
 
         <div className="pt-4">
-          <Button
-            size="lg"
-            className="bg-[#3293B5] hover:bg-[#2a7a9a] text-white px-8 py-3 text-lg font-medium rounded-md transition-all duration-200 hover:shadow-lg"
-          >
-            Book a consultation
-          </Button>
+          <a href="https://forms.reform.app/apEKoq/latour-ai-consultation/d4m00p" target="_blank" rel="noopener noreferrer">
+            <Button
+              size="lg"
+              className="bg-[#3293B5] hover:bg-[#2a7a9a] text-white px-8 py-3 text-lg font-medium rounded-md transition-all duration-200 hover:shadow-lg"
+            >
+              Book a consultation
+            </Button>
+          </a>
         </div>
       </div>
     </div>
